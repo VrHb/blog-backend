@@ -1,12 +1,13 @@
 {% extends "base.html" %}
 
 {% load static %}
+
 {% block title %}
-<title>{{ post.title }} - Blog Details</title>
+  <title>{{ post.title }} - Blog Details</title>
 {% endblock %}
 
-  {% block content %}
-    <!--================ Hero sm Banner start =================-->      
+{% block content %}
+  <!--================ Hero sm Banner start =================-->      
   <section class="mb-30px">
     <div class="container">
       <div class="hero-banner hero-banner--sm">
@@ -138,4 +139,4 @@
       </div>
     </div>
   </section>
-  {% endblock %}
+{% endblock %}
